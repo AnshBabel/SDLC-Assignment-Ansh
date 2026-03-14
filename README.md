@@ -28,3 +28,7 @@ Benefits:
 * Automatic deployment of improvements to users
 
 This ensures students and teachers always receive the latest version of the Smart-Attend application without manual updates.
+
+## System Architecture
+
+![Smart-Attend Architecture](docs/smart-attend-architecture.png)
