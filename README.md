@@ -1,34 +1,101 @@
-# Smart-Attend SDLC Assignment
+# Smart-Attend – SDLC Assignment
 
-This repository contains the SDLC analysis and sprint planning for the **Smart-Attend Mobile Attendance Application**.
+## Project Overview
 
-## Project Scenario
+Smart-Attend is a mobile application designed to automate student attendance using **Geo-Fencing technology**. When students enter the classroom area, their attendance is automatically recorded.
 
-A university startup is developing a student attendance application using **Geo-fencing** to automatically mark attendance when a student enters a classroom.
+To prevent proxy attendance, the system integrates **Face ID biometric verification**.
 
-Halfway through development, a new requirement was introduced:
-Face ID biometric verification to prevent proxy attendance.
+This project analyzes how different SDLC models handle changing requirements and demonstrates the use of Agile Scrum for iterative development.
 
-## Contents
+---
 
-* Waterfall Failure Analysis
-* Agile Scrum Sprint Plan
-* Sprint Backlog
-* CI/CD Explanation
+## SDLC Analysis
 
-## Why CI/CD is Important
+The project compares two development approaches:
 
-Continuous Integration and Continuous Deployment help automate the process of building, testing, and deploying updates to the application.
+### Waterfall Model
 
-Benefits:
+* Sequential development process
+* Difficult to adapt to requirement changes
+* High cost when new features are introduced mid-development
 
-* Faster release of new sprint features
-* Automated testing of new updates
-* Quick bug detection
-* Automatic deployment of improvements to users
+### Agile Scrum Framework
 
-This ensures students and teachers always receive the latest version of the Smart-Attend application without manual updates.
+* Iterative development using short sprints
+* Allows quick adaptation to changing requirements
+* Continuous feedback and improvement
+
+---
+
+## Sprint Plan
+
+### Sprint 1 – Minimum Viable Product
+
+* Basic UI
+* Student login
+* Geo-fencing attendance detection
+* Teacher dashboard
+* Attendance notification
+
+### Sprint 2 – Feature Update
+
+* Face ID biometric verification
+* Security improvements
+* Reporting dashboard enhancements
+
+---
+
+## Sprint Backlog
+
+The Sprint Backlog lists tasks planned for Sprint 1 including login functionality, geo-fencing detection, attendance notifications, and admin override features.
+
+---
 
 ## System Architecture
 
-![Smart-Attend Architecture](docs/smart-attend-architecture.png)
+![Smart Attend Architecture](docs/smart-attend-architecture.png)
+
+The system includes:
+
+* Student Mobile Application
+* Geo-Fencing Detection Module
+* Backend Attendance Server
+* Face ID Verification
+* Attendance Database
+* Teacher Dashboard
+
+---
+
+## CI/CD Explanation
+
+Continuous Integration and Continuous Deployment help automate the process of building, testing, and deploying updates.
+
+Benefits include:
+
+* Faster release cycles
+* Automated testing
+* Reliable deployment
+* Quick delivery of sprint updates to users
+
+---
+
+## Repository Structure
+
+```
+SDLC-Assignment-Ansh
+│
+├── README.md
+├── Waterfall-Analysis.pdf
+├── Sprint-Backlog.xlsx
+│
+├── analysis
+│   └── waterfall-agile-analysis.md
+│
+├── backlog
+│   └── sprint-backlog.csv
+│
+└── docs
+    ├── architecture.md
+    └── smart-attend-architecture.png
+```
